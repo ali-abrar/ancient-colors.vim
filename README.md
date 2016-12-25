@@ -20,3 +20,8 @@ Add the following line to your `~/.vimrc`:
 <center>
 ![Preview](https://github.com/saalaa/ancient-colors.vim/raw/master/preview.png)
 </center>
+
+
+## License
+
+If it matters, this plugin is release under the BSD license.
