@@ -1,6 +1,8 @@
 " Maintainer: Benoit Myard <myardbenoit@gmail.com>
 " License:    BSD
 
+set background=light
+
 hi clear
 if exists('syntax_on')
    syntax reset
@@ -8,11 +10,9 @@ endif
 
 let g:colors_name = 'ancient'
 
-hi clear Normal
-
+" Basic styling
 hi Normal     guifg=#000000 guibg=NONE    ctermfg=0   ctermbg=NONE
 
-hi LineNr     guifg=#aaaaaa guibg=NONE    ctermfg=8   ctermbg=NONE
 hi Identifier guifg=#000000 guibg=NONE    ctermfg=0   ctermbg=NONE
 hi Constant   guifg=#000000 guibg=NONE    ctermfg=0   ctermbg=NONE
 hi Function   guifg=#000000 guibg=NONE    ctermfg=0   ctermbg=NONE
@@ -40,19 +40,8 @@ hi Type       guifg=#00007F guibg=NONE    ctermfg=18  ctermbg=NONE
 hi Search     guifg=#000000 guibg=#ffff00 ctermfg=0   ctermbg=226
 hi NonText    guifg=#ff0000 guibg=NONE    ctermfg=196 ctermbg=NONE
 
-" Window splits and status line
+" Window splits, status line and line numbers
+hi LineNr       guifg=#aaaaaa guibg=NONE    ctermfg=8     ctermbg=NONE
 hi StatusLine   guifg=#cccccc guibg=#000000 ctermfg=188   ctermbg=0
 hi StatusLineNC guifg=#cccccc guibg=#aaaaaa ctermfg=188   ctermbg=8
 hi VertSplit    guifg=#cccccc guibg=#cccccc ctermfg=188   ctermbg=188
-
-
-" Language specific rules
-" -----------------------
-
-" Markdown
-" hi markdownHeadingDelimiter guifg=#00007F guibg=NONE
-" hi markdownHeadingRule      guifg=#00007F guibg=NONE
-" hi markdownLinkText         guifg=#5F005F guibg=NONE
-
-" Python
-" hi pythonEscape             guifg=#00007F guibg=NONE
