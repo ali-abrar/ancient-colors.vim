@@ -45,3 +45,6 @@ hi LineNr       guifg=#aaaaaa guibg=NONE    ctermfg=8     ctermbg=NONE
 hi StatusLine   guifg=#cccccc guibg=#000000 ctermfg=188   ctermbg=0
 hi StatusLineNC guifg=#cccccc guibg=#aaaaaa ctermfg=188   ctermbg=8
 hi VertSplit    guifg=#cccccc guibg=#cccccc ctermfg=188   ctermbg=188
+
+" Cursor lines, notably used by ctrlp plugin
+hi CursorLine   guifg=#000000 guibg=#cccccc ctermfg=0     ctermbg=188 cterm=NONE
