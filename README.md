@@ -5,20 +5,21 @@ Trimmed down colorscheme for vim.
 
 ## Installation
 
-No other mean of installation than Pathogen has been tested.
+    plug 'saalaa/ancient-colors.vim'
 
 
 ## Configuration
 
 Add the following line to your `~/.vimrc`:
 
+    set background=light
     colorscheme ancient
 
 
 ## Preview
 
 <center>
-![Preview](https://github.com/saalaa/ancient-colors.vim/raw/master/preview.png)
+<img src="https://github.com/saalaa/ancient-colors.vim/raw/master/preview.png">
 </center>
 
 
