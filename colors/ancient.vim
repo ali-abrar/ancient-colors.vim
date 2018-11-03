@@ -51,3 +51,6 @@ hi CursorLine   guifg=#000000 guibg=#cccccc ctermfg=0     ctermbg=188 cterm=NONE
 
 " Gutter column
 hi SignColumn   guifg=#aaaaaa guibg=#ffffff    ctermfg=8     ctermbg=15
+
+" Todo
+hi Todo guibg=#ffff33 ctermbg=227
